@@ -13,3 +13,8 @@ def print_first_directors_movie_titles
     i += 1 
   end
 end
+
+def print_first_directors_movie_titles
+  i = 0
+  while i < directors_database[i].length do
+    if directors_database[i][:name] = "stephan"
