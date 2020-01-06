@@ -16,6 +16,7 @@ def print_first_directors_movie_titles
       inner_len = directors_database[row_index][column_index].length
       puts "\tCoordinate [#{coord}] points to an #{directors_database[row_index][column_index].class} of length #{inner_len}"
       column_index += 1
+    end
     row_index += 1
   end
 end
