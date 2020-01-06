@@ -12,7 +12,9 @@ def print_first_directors_movie_titles
     # puts "Row #{m} has #{directors_database[m]} columns"
     n = 0 
     while n < directors_database[m].length do
-      puts " #{directors_database[m][n].class}"
+         coord = "#{m}, #{n}"
+    inner_len = directors_database[m][n].length
+    puts "\tCoordinate [#{coord}] points to an #{directors_database[m][n].class} of length #{inner_len}"
       n += 1
     end
     m += 1
