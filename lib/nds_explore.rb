@@ -11,7 +11,7 @@ def print_first_directors_movie_titles
   while m < directors_database.length do
     # puts "Row #{m} has #{directors_database[m]} columns"
     n = 0 
-    while column_index < directors_database[m].length do
+    while n < directors_database[m].length do
       puts " #{directors_database[m][n]}"
       n += 1
     end
