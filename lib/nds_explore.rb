@@ -16,7 +16,7 @@ end
 
 def print_first_directors_movie_titles
   i = 0
-  while i < directors_database[i] != "Stephen Spielberg" do
+  while directors_database[i] != "Stephen Spielberg" do
     i += 1
   end
   m = i
