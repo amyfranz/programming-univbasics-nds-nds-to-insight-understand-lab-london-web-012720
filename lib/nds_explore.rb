@@ -12,7 +12,7 @@ def print_first_directors_movie_titles
     # puts "Row #{m} has #{directors_database[m]} columns"
     n = 0 
     while column_index < directors_database[m].length do
-      puts " #{directors_database[m][n].class}}"
+      puts " #{directors_database[m][n]}"
       n += 1
     end
     m += 1
