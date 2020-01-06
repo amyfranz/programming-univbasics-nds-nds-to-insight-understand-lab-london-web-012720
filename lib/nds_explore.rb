@@ -15,10 +15,10 @@ end
 # end
 
 def print_first_directors_movie_titles
-  pp directors_database
   i = 0
   while i < directors_database[i].length do
     if directors_database[i][:name] = "Stephen Spielberg"
+      puts m
       m = i
     end
     i += 1
