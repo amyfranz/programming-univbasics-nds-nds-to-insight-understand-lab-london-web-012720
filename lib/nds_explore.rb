@@ -16,17 +16,17 @@ end
 
 def print_first_directors_movie_titles
   pp directors_database
-  # i = 0
-  # while i < directors_database[i].length do
-  #   if directors_database[i][:name] = "Stephen Spielberg"
-  #     m = i 
-  #   end
-  #   i += 1
-  # end
-  # i = 0
-  # while i < directors_database[m][:movies].length do
-  #   puts directors_database[m][:movies][i][:title]
-  #   i += 1 
-  # end
+  i = 0
+  while i < directors_database[i].length do
+    if directors_database[i][:name] = "Stephen Spielberg"
+      m = i
+    end
+    i += 1
+  end
+  i = 0
+  while i < directors_database[m][:movies].length do
+    puts directors_database[m][:movies][i][:title]
+    i += 1 
+  end
 end
   
